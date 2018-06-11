@@ -9,7 +9,7 @@ class CamereState {
   TextEditingController   passwordControler = new TextEditingController();
   VideoPlayerController videoControler;
   bool get unlocked => password == input;
-  String get videoUrl => 'https://storage.googleapis.com/escape_game/cameras/camera.$number.mp4';
+  String get videoUrl => 'https://storage.googleapis.com/escape_game/camera/camera.$number.mp4';
 
 
   CamereState(this.number, this.pauseState, this.password);
